@@ -1,0 +1,60 @@
+.mine .my-bg {
+  position: fixed;
+  top: 0;
+  height: 200px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mine .my-bg .img-upload {
+  width: 100%;
+  height: 100%;
+}
+.mine .my-bg .img-upload .van-uploader__upload {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  opacity: 0;
+}
+.mine .my-content {
+  position: relative;
+  top: -40px;
+  margin: 0 10px;
+  margin-top: 200px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.mine .my-content .my-info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.mine .my-content .my-info .my-head-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  overflow: hidden;
+}
+.mine .my-content .my-info .my-head-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mine .my-content .my-info .my-text {
+  margin-left: 10px;
+}
+.mine .my-content .my-info .my-text .my-name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #182078;
+}
+.mine .my-content .my-info .my-text .personalSignature {
+  width: 250px;
+}
+.mine .my-content .option-list {
+  margin-top: 36px;
+}

@@ -1,0 +1,102 @@
+.shopbag {
+  margin: 50px 0;
+}
+.shopbag .empty {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.shopbag .empty .van-button {
+  margin: 0 130px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #182078;
+  border: none;
+}
+.shopbag .shopbag-item {
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.shopbag .shopbag-item .cell-item .van-swipe-cell__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -5px;
+  background-color: #182078;
+}
+.shopbag .shopbag-item .cell-item .van-swipe-cell__right .van-button--danger {
+  background-color: #182078;
+  border: none;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .check-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .product-img img {
+  width: 120px;
+  border-radius: 15px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text {
+  margin-left: 10px;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #182078;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .enname {
+  width: 150px;
+  color: #999;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .rule {
+  margin-bottom: 50px;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .info-count {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .info-count .price {
+  width: 40px;
+  font-size: 18px;
+  color: tomato;
+  margin-right: 30px;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .info-count .step .van-stepper__minus {
+  border: 1px solid #182078;
+  color: #182078;
+}
+.shopbag .shopbag-item .cell-item .cell-item-box .product-info-box .info-text .info-count .step .van-stepper__plus {
+  background-color: #182078;
+}
+.shopbag .submit .van-submit-bar {
+  bottom: 50px;
+  border-radius: 30px;
+  margin: 0 10px;
+  width: 94%;
+}
+.shopbag .submit .van-submit-bar .van-submit-bar__button--danger {
+  background: linear-gradient(to right, #404dd9, #182078);
+}
+.shopbag .van-checkbox__icon--checked .van-icon {
+  color: #fff;
+  background-color: #182078;
+  border-color: #182078;
+}

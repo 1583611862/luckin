@@ -1,0 +1,76 @@
+.login {
+  background-color: #fff;
+}
+.login .login-top {
+  height: 40px;
+}
+.login .login-top .nav-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+}
+.login .login-top .nav-left .logo {
+  width: 20%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.login .login-top .nav-left .logo-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.login .login-top .van-nav-bar__text {
+  font-size: 16px;
+  color: #182078;
+}
+.login .user-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 12px;
+}
+.login .user-box .welcome {
+  font-size: 30px;
+  color: #182078;
+}
+.login .user-box .welcome-en {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #999;
+}
+.login .from-box {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.login .from-box .submit {
+  margin-top: 40px;
+  font-size: 16px;
+}
+.login .from-box .submit .login-btn {
+  margin-top: 56px;
+}
+.login .from-box .forgotPassword {
+  margin-top: 14px;
+  margin-bottom: 56px;
+  font-size: 14px;
+  color: #999;
+}
+.login .register-box {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.login .register-box .register-title {
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 15px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #999;
+  font-weight: 400;
+  background-color: #fff;
+}
+.login .register-box .register-content {
+  margin-top: 16px;
+}

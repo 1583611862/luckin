@@ -1,0 +1,114 @@
+@blue: #182078;
+
+.shopbag {
+  margin: 50px 0;
+  .empty {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    .van-button {
+      // width: 100px;
+      margin: 0 130px;
+      border-radius: 30px;
+      color: #fff;
+      background-color: #182078;
+      border: none;
+    }
+  }
+  .shopbag-item {
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    .cell-item {
+      .van-swipe-cell__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: -5px;
+        background-color: #182078;
+        .van-button--danger {
+          background-color: #182078;
+          border: none;
+        }
+      }
+      .cell-item-box {
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        .check-box {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+        }
+        .product-info-box {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          margin-left: 10px;
+          .product-img {
+            img {
+              width: 120px;
+              border-radius: 15px;
+              overflow: hidden;
+              object-fit: cover;
+            }
+          }
+          .info-text {
+            margin-left: 10px;
+            .name {
+              font-size: 18px;
+              font-weight: 700;
+              color: @blue;
+            }
+            .enname {
+              width: 150px;
+              color: #999;
+            }
+            .rule{
+              margin-bottom: 50px;
+
+            }
+            .info-count {
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              .price {
+                width: 40px;
+                font-size: 18px;
+                color: tomato;
+                margin-right: 30px;
+              }
+              .step {
+                .van-stepper__minus {
+                  border: 1px solid #182078;
+                  color: #182078;
+                }
+                .van-stepper__plus {
+                  background-color: #182078;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .submit {
+    .van-submit-bar {
+      bottom: 50px;
+      border-radius: 30px;
+      margin: 0 10px;
+      width: 94%;
+      .van-submit-bar__button--danger {
+        background: linear-gradient(to right, #404dd9, #182078);
+      }
+    }
+  }
+  .van-checkbox__icon--checked .van-icon {
+    color: #fff;
+    background-color: @blue;
+    border-color: @blue;
+  }
+}

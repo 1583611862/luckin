@@ -1,0 +1,44 @@
+@blue: #182078;
+.search {
+  position: relative;
+  .home-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 280px;
+    padding: none;
+    .van-search {
+      height: 40px;
+      width: 300px;
+      .van-search__action {
+        font-size: 16px;
+        color: #999;
+      }
+      .van-icon-search {
+        color: @blue;
+      }
+    }
+  }
+
+  .search-item {
+    position: relative;
+    // top: -50px;
+    top: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 0 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #fff;
+    overflow: scroll;
+    transition: all 0.4s;
+    // transform: translateY(150px);
+
+    .items {
+      // height: 500px;
+      overflow: auto;
+    }
+  }
+}

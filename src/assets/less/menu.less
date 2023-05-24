@@ -1,0 +1,95 @@
+@blue: #182078;
+// 隐藏滚动条
+.menu {
+  .menu-search {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99;
+  }
+  .content {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    overflow: auto;
+
+    .sub-nav {
+      float: left;
+      position: fixed;
+      width: 32%;
+      height: 100%;
+      background-color: #fff;
+      .sub-nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        margin: 10px 5px;
+        line-height: 50px;
+        vertical-align: middle;
+        .sub-nav-icon {
+          width: 50px;
+          margin: 0 5px;
+          vertical-align: middle;
+        }
+        .sub-nav-title {
+          text-align: center;
+          width: 100px;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+      .item-active {
+        border-left: 3px solid @blue;
+      }
+    }
+    .product-item {
+      float: right;
+      width: 66%;
+      padding-bottom: 100px;
+
+      .product-item-card {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 130px;
+        margin: 5px;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: #fff;
+
+        .p-img {
+          width: 40%;
+          margin: 0 10px;
+          border-radius: 15px;
+          overflow: hidden;
+        }
+        .p-contnet {
+          width: 50%;
+          // margin-left: 10px;
+          .name {
+            font-size: 18px;
+            margin-bottom: 5px;
+          }
+          .enname {
+            color: #ccc;
+            margin-bottom: 20px;
+          }
+          .price {
+            font-size: 18px;
+            font-weight: 600;
+            color: @blue;
+          }
+        }
+        .add {
+          position: absolute;
+          right: 10px;
+          bottom: 22px;
+          font-size: 20px;
+          color: @blue;
+        }
+      }
+    }
+  }
+}

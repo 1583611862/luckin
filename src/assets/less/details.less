@@ -1,0 +1,126 @@
+@blue: #182078;
+@price: #e7651a;
+.details {
+  padding-top: 40px;
+  .pro-img {
+    position: fixed;
+  }
+  .pro-info-box {
+    padding: 10px;
+    padding-top: 280px;
+
+    .pro-info {
+      position: relative;
+      top: -30px;
+      padding: 10px 20px;
+      // margin-bottom: 30px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background-color: #fff;
+      // opacity: .8;
+      .title {
+        .pro-name {
+          padding-bottom: 5px;
+          font-size: 20px;
+          font-weight: 600;
+          color: @blue;
+        }
+        .pro-enname {
+          // width: 200px;
+          font-size: 12px;
+          color: #ccc;
+          margin-bottom: 20px;
+        }
+        .price {
+          font-size: 20px;
+          font-weight: 600;
+          color: @price;
+        }
+      }
+      .rule-box {
+        padding-bottom: 10px;
+        .rule-title {
+          width: 55px;
+          height: 30px;
+          font-size: 16px;
+          line-height: 30px;
+          color: #666;
+          //   padding: 0 10px;
+        }
+        .rule-item {
+          margin: 10px 0;
+        }
+        .r-index {
+          width: 60px;
+          height: 30px;
+          margin-right: 10px;
+          padding: 0 5px;
+          line-height: 30px;
+          text-align: center;
+          font-size: 16px;
+          color: rgb(131, 131, 131);
+          border-radius: 15px;
+          background-color: #f2f2f2;
+        }
+        .r-index:last-child {
+          margin-right: 0;
+        }
+        .r-active {
+          color: #fff;
+          background-color: @blue;
+        }
+        .r-sm-text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .pro-count-box {
+    // height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    .count-title {
+      font-size: 16px;
+      color: #666;
+    }
+    .count-box {
+      .van-stepper {
+        input {
+          font-size: 16px;
+        }
+      }
+      .van-stepper__plus {
+        background-color: @blue;
+      }
+      .van-stepper__minus {
+        background-color: @blue;
+        color: #fff;
+        border: none;
+      }
+    }
+  }
+  .desc-box {
+    margin: 10px 0 20px 0;
+    .desc-title {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #666;
+    }
+    .desc-content {
+      padding: 0 2px;
+      li {
+        margin: 5px 0;
+        color: #999;
+      }
+    }
+  }
+  .bottom-nav {
+    .van-goods-action-icon__icon {
+      color: #999;
+    }
+  }
+}

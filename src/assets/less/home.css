@@ -1,0 +1,116 @@
+.home .home-nav {
+  display: flex;
+  line-height: 45px;
+}
+.home .t1 {
+  font-weight: 700;
+}
+.home .t2 {
+  margin-left: 10px;
+  color: #182078;
+}
+.home .van-search {
+  height: 45px;
+}
+.home .van-icon-search {
+  color: #182078;
+}
+.home .van-nav-bar__right {
+  padding-right: 0;
+}
+.home .banner-swipe {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.home .my-swipe .van-swipe-item {
+  color: #fff;
+  font-size: 20px;
+  line-height: 150px;
+  text-align: center;
+}
+.home .home-content {
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 5px;
+}
+.home .bestSellers {
+  position: relative;
+  height: 40px;
+  margin: 10px 0;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  border-radius: 15px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #fff;
+  overflow: hidden;
+}
+.home .bestSellers span {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  height: 20px;
+  padding: 5px 10px 5px ;
+  text-align: center;
+  line-height: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #182078;
+}
+.home .product-list {
+  padding-bottom: 100px;
+}
+.home .products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home .products .products-card {
+  position: relative;
+  width: calc(100% / 2 - 10px);
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+.home .products .products-card .img-box img {
+  width: 85%;
+  border-radius: 10px;
+  margin: 10px;
+}
+.home .products .products-card .info .name {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 2px;
+}
+.home .products .products-card .info .enname {
+  font-size: 12px;
+  color: #acacac;
+  margin: 5px 10px;
+}
+.home .products .products-card .info .price {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #182078;
+}
+.home .products .products-card .hot {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  width: 30px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  background-color: #182078;
+  color: #fff;
+}
+.home .none {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
